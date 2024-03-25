@@ -32,7 +32,7 @@ const Projects = () => {
               </p>
               <h3 className="text-2xl font-bold">Cloud-Native E-Commerce Inventory Management System</h3>
             </div>
-            <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+            <p className="bg-[#112240] text-sm md:text-base text-justify p-2 md:p-6 rounded-md">
             A robust e-commerce inventory management system leveraging AWS services like EC2, S3, and RDS, along with Terraform for infrastructure automation. Integrated CI/CD pipelines for efficient deployment and utilized custom scaling techniques for optimal performance and reliability.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
@@ -75,7 +75,7 @@ const Projects = () => {
               </p>
               <h3 className="text-2xl font-bold">Be My Guest</h3>
             </div>
-            <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
+            <p className="text-sm md:text-base bg-[#112240] text-justify p-2 md:p-6 rounded-md xl:-mr-16">
             A comprehensive housing platform using React.js and Node.js, empowering Lessors to list properties and manage applications, while Lessees seamlessly search, apply, and securely transact. Employed technologies like Redux for efficient state management, Auth0 for secure authentication, and MongoDB for scalable data storage, complemented by Google Maps API integration for enhanced user experience.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
@@ -120,7 +120,7 @@ const Projects = () => {
               </p>
               <h3 className="text-2xl font-bold">Microservices Architecture for Order Processing</h3>
             </div>
-            <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
+            <p className="text-sm md:text-base bg-[#112240] text-justify p-2 md:p-6 rounded-md">
             A microservices architecture tailored for order processing, comprising distinct services for Orders, Payments, and Products. Leveraged technologies such as Spring Boot, Docker, and Kubernetes on GCP to ensure scalability and resilience. Integrated OKTA for authorization, Resilience4j for circuit breaking, and Redis for rate limiting, while orchestrating automated build and deployment pipelines with Jenkins. Deployed Docker images to an on-premises artifact registry and managed Kubernetes clusters seamlessly with GKE & Kubectl.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
