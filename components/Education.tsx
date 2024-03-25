@@ -33,7 +33,7 @@ const Education = () => {
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            Master's
+            Master&apos;s
           </li>
           <li
             onClick={handleBachelors}
@@ -43,7 +43,7 @@ const Education = () => {
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            Bachelor's
+            Bachelor&apos;s
           </li>
         </ul>
         {eduMasters && <Masters />}

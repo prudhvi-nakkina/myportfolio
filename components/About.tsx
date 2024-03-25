@@ -44,7 +44,7 @@ const About = () => {
           <span className="text-textGreen">
           Lifelong Learner:{" "}
             </span>
-            Continuously striving to learn new technologies and stay ahead of the curve, as evidenced by my Master's program and personal projects.
+            Continuously striving to learn new technologies and stay ahead of the curve, as evidenced by my Master&apos;s program and personal projects.
           </p>
           <p>Here are a few technologies I have been working with recently:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">

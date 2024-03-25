@@ -30,7 +30,7 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        I'm a highly motivated and results-oriented software engineer with a strong passion for crafting innovative solutions. My journey began at Infosys, where I honed my skills in full-stack development, contributing to projects that boosted customer engagement and user acquisition. Currently pursuing my Master's in Information Systems, I'm constantly expanding my knowledge base in areas like cloud computing, container orchestration, and modern frameworks.
+        I&apos;m a highly motivated and results-oriented software engineer with a strong passion for crafting innovative solutions. My journey began at Infosys, where I honed my skills in full-stack development, contributing to projects that boosted customer engagement and user acquisition. Currently pursuing my Master&apos;s in Information Systems, I&apos;m constantly expanding my knowledge base in areas like cloud computing, container orchestration, and modern frameworks.
       </motion.p>
       <a href="https://github.com/prudhvi-nakkina" target="_blank">
         <motion.button
