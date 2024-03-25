@@ -1,5 +1,11 @@
 import { motion } from "framer-motion";
+import { useTypewriter } from "react-simple-typewriter";
 const Banner = () => {
+  const [text2] = useTypewriter({
+    words: ["Full Stack Developer.", "Software Engineer."],
+    loop: 3,
+    typeSpeed: 20
+  });
   return (
     <section
       id="home"
@@ -21,7 +27,7 @@ const Banner = () => {
       >
         Prudhvi Nakkina.
         <span className="text-textDark mt-2 lgl:mt-4">
-          I am a Full Stack Developer.
+          I am a <span>{text2}</span>
         </span>
       </motion.h1>
       <motion.p
